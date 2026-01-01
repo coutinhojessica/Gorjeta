@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-laranja: #db744b;
+    --color-bege: #d9bd9c;
+    --color-verde: #5c7346;
+    --color-verde-escuro: #133510;
+
+    --gradient-start: var(--color-laranja);
+    --gradient-middle: var(--color-bege);
+    --gradient-end: var(--color-verde-escuro);
+}
+
+@layer base {
+    /* Chrome, Edge, Safari */
+    input[type='number']::-webkit-inner-spin-button,
+    input[type='number']::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type='number'] {
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+}
