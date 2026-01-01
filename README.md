@@ -40,7 +40,9 @@ Durante o desenvolvimento deste projeto, foram trabalhados conceitos importantes
 - Manipulação do DOM
 - Integração de bibliotecas externas via CDN
 - Boas práticas de legibilidade e organização de código
-
+<br>
+<br>
+Link do site do projeto: https://coutinhojessica.github.io/gorjeta/
 ---
 
 ## 📂 Estrutura do projeto
